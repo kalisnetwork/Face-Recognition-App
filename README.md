@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Face Recognition App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application that performs face recognition using the webcam and displays the detected faces along with their expressions. This application is built with React and utilizes the face-api.js library for face detection and expression recognition.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Real-time face detection using the webcam
+- Display of detected faces and facial landmarks
+- Recognition of facial expressions
+- Responsive and user-friendly interface
 
-### `yarn start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![App Screenshot](/images/face-detection.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `yarn test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (v14 or above)
 
-### `yarn build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```shell
+   git clone https://github.com/kalisnetwork/face-recognition-app.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `yarn eject`
+   ```shell
+   cd face-recognition-app
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install the dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   yarn install or npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```shell
+   yarn install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Start the development server:
 
-## Learn More
+   yarn start or npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```shell
+   yarn start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Open the app in your browser:
 
-### Code Splitting
+   ```arduino
+   http://localhost:3000
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Usage:
 
-### Analyzing the Bundle Size
+1. On the login page, click on the camera icon to access the webcam.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. The application will detect faces in the webcam stream and display the number of detected faces at the top.
 
-### Making a Progressive Web App
+3. The detected faces will be highlighted with bounding boxes and facial landmarks.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. The expressions of the detected faces will be displayed below the video.
 
-### Advanced Configuration
+Technologies Used:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. React
+2. face-api.js
+3. HTML5 Canvas
+4. CSS
