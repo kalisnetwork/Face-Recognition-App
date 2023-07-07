@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/face-recognition-app/static/css/main.a5e5d3ab.css",
+    "main.js": "/face-recognition-app/static/js/main.06f11338.js",
+    "index.html": "/face-recognition-app/index.html",
+    "main.a5e5d3ab.css.map": "/face-recognition-app/static/css/main.a5e5d3ab.css.map",
+    "main.06f11338.js.map": "/face-recognition-app/static/js/main.06f11338.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5e5d3ab.css",
+    "static/js/main.06f11338.js"
+  ]
+}
