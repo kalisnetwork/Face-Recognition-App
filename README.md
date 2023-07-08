@@ -56,7 +56,7 @@ A web application that performs face recognition using the webcam and displays t
    http://localhost:3000
    ```
 
-Usage:
+### Usage:
 
 1. On the login page, click on the camera icon to access the webcam.
 
@@ -66,7 +66,7 @@ Usage:
 
 4. The expressions of the detected faces will be displayed below the video.
 
-Technologies Used:
+### Technologies Used:
 
 1. React
 2. face-api.js
