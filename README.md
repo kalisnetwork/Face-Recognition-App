@@ -11,7 +11,8 @@ A web application that performs face recognition using the webcam and displays t
 
 ## Screenshots
 
-![face-detection](https://github.com/kalisnetwork/face-recognition-app/assets/106701723/5b910911-f0c6-4431-ad78-f5984cdc0043)
+![face-detection](https://github.com/kalisnetwork/Face-Recognition-App/assets/106701723/0050d5b0-9862-4f2b-9ba8-99e350a0bf2c)
+
 
 ## Getting Started
 
