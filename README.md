@@ -25,7 +25,7 @@ A web application that performs face recognition using the webcam and displays t
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/kalisnetwork/face-recognition-app.git
+   git clone https://github.com/kalisnetwork/Face-Recognition-App.git
    ```
 
 2. Navigate to the project directory:
