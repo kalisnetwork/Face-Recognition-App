@@ -31,7 +31,7 @@ A web application that performs face recognition using the webcam and displays t
 2. Navigate to the project directory:
 
    ```shell
-   cd face-recognition-app
+   cd Face-Recognition-App
    ```
 
 3. Install the dependencies:
